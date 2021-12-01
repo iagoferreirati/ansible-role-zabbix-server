@@ -1,0 +1,20 @@
+---
+centos_version: 8
+zabbix_release: "5.5"
+zabbix_version: "5.5-1"
+zabbix_agent_package: 
+  - zabbix-server-mysql
+  - zabbix-web-mysql
+  - zabbix-apache-conf
+  - zabbix-sql-scripts
+  - httpd
+  - python3-pip
+
+login_mysql_user: root  
+login_mysql_password: root
+zabbix_server_address: localhost
+zabbix_frontend_address: localhost
+DBHost_address: "localhost"
+DBName: zabbix
+DBUser: zabbix
+DBPassword: "zabbix20202020"

@@ -1,0 +1,6 @@
+---
+- name: Converge
+  hosts: all
+  roles:
+    - role: /home/maxmilhas/live/stack-zabbix/ansible/roles/ansible-role-mysql
+    - role: role-zabbix-server
