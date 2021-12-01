@@ -9,9 +9,7 @@ platforms:
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
     privileged: true
-    pre_build_image: true 
-  - name: ubuntu
-    image: ubuntu     
+    pre_build_image: true    
 provisioner:
   name: ansible
 verifier:
