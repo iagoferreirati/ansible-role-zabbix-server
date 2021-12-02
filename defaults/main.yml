@@ -1,5 +1,4 @@
 ---
-centos_version: 8
 zabbix_release: "5.5"
 zabbix_version: "5.5-1"
 zabbix_agent_package: 
@@ -18,3 +17,4 @@ DBHost_address: "localhost"
 DBName: zabbix
 DBUser: zabbix
 DBPassword: "zabbix20202020"
+...

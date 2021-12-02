@@ -12,4 +12,4 @@
 
 - name: Install pymysql CentOS
   pip: name=pymysql state=present
-
+...
