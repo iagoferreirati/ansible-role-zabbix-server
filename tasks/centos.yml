@@ -1,4 +1,8 @@
 ---
+- name: Disable SELinux
+  selinux:
+    state: disabled
+
 - name: Install Zabbix Repository CentOS
   yum: 
     name: https://repo.zabbix.com/zabbix/{{ zabbix_release }}/rhel/{{ ansible_distribution_major_version }}/{{ ansible_architecture }}/zabbix-release-{{ zabbix_version }}.el{{ ansible_distribution_major_version }}.noarch.rpm
